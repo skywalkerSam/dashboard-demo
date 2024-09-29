@@ -26,7 +26,7 @@ export default function Home() {
         alt="Screenshot of the dashboard project showing mobile version"
       /> */}
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start m-3">
-      <AcmeLogo></AcmeLogo>
+        <AcmeLogo></AcmeLogo>
         {/* Custom Font */}
         <p className={`${firaCode.className} text-3xl text-gray-400`}>
           Hello, World!
