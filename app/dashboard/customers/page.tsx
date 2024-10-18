@@ -1,7 +1,26 @@
-export default function Customers() {
+import { fetchFilteredCustomers } from '@/app/lib/data';
+import CustomersTable from '@/app/ui/customers/table';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Customers',
+};
+
+export default async function Page({
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string;
+    page?: string;
+  };
+}) {
+  const query = searchParams?.query || '';
+
+  const customers = await fetchFilteredCustomers(query);
+
   return (
-    <div>
-      <p className="text-3xl text-gray-400">Customers</p>
-    </div>
+    <main>
+      <CustomersTable customers={customers} />
+    </main>
   );
 }
