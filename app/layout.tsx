@@ -1,5 +1,5 @@
 import "@/app/ui/global.css";
-import { inter } from "@/app/ui/fonts";
+import { ubuntu } from "@/app/ui/fonts";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: {
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
   description:
     "ASAI Inc. dashboard demo built w/ NEXT.js utilizing the new App Router.",
-  metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+  metadataBase: new URL("https://dashboard-demo-umber.vercel.app/"),
 };
 export default function RootLayout({
   children,
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased bg-gray-600`}>{children}</body>
+      <body className={`${ubuntu.className} antialiased bg-gray-600`}>{children}</body>
     </html>
   );
 }
