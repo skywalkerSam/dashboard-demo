@@ -48,11 +48,11 @@ export default function Page() {
             <a
               href="https://nextjs.org/learn/"
               target="_blank"
-              className="text-blue-500"
+              className="text-black"
             >
               {/* <Image src="https://github.com/vercel.png" alt="The almighty triangle" width={30} height={30}></Image> */}
               {/* <img src="https://github.com/vercel.png" alt="The almighty triangle" width={30}></img> */}
-              Vercel
+              <strong className="text-xl">Vercel</strong>
             </a>
           </p>
         </div>
