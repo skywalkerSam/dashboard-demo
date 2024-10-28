@@ -1,7 +1,6 @@
-// https://nextjs.org/learn/dashboard-app/error-handling
-"use client";
+'use client';
 
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Error({
   error,
@@ -25,7 +24,7 @@ export default function Error({
           () => reset()
         }
       >
-        Try again!
+        Try again
       </button>
     </main>
   );
