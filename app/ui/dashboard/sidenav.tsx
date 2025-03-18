@@ -3,6 +3,7 @@ import NavLinks from "@/app/ui/dashboard/nav-links";
 // import AcmeLogo from "@/app/ui/asai-logo";
 import { PowerIcon } from "@heroicons/react/24/outline";
 import { signOut } from "@/auth";
+import StarboyLogo from "@/components/ui/starboy-logo";
 
 export default function SideNav() {
   return (
@@ -12,8 +13,9 @@ export default function SideNav() {
         href="/"
       >
         {/* <div className="w-32 text-white md:w-40"> */}
-        <div className="w-20 p-1">
-          {/* <AcmeLogo /> */}
+        <div className="w-36">
+          <StarboyLogo></StarboyLogo>
+          
         </div>
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">

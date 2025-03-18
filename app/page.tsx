@@ -11,6 +11,8 @@ import Link from "next/link";
 // import MainTitle from "@/components/ui/main-title";
 import TopBar from "@/components/ui/top-bar";
 import { centeredDivStyle, mainPageStyles } from "./styles/styles";
+import MainTitle from "@/components/ui/main-title";
+import StarboyLogo from "@/components/ui/starboy-logo";
 
 // import MainTitle from "@/components/ui/main-title";
 // import { centeredDivStyle } from "./styles/styles";
@@ -22,7 +24,6 @@ export default function Page() {
         <TopBar></TopBar>
       </div>
       <div className={centeredDivStyle}>
-
         <Link
           href={"/dashboard"}
           className={mainPageStyles.linkStyle}
@@ -34,6 +35,9 @@ export default function Page() {
             →
           </span>
         </Link>
+      </div>
+      <div className={centeredDivStyle}>
+        <MainTitle></MainTitle>
       </div>
     </div>
   );

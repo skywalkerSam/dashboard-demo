@@ -14,11 +14,12 @@ export const layoutStyles = {
 
 // /app/page.tsx
 export const mainPageStyles = {
+  mainPageTitle: "flex flex-row min-h-screen justify-center items-center",
   pageStyle:
     "grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20",
   mainStyle: "row-start-2 flex flex-col items-center gap-3 sm:items-start",
   linkStyle:
-    "inline-flex items-center rounded-md text-xl text-blue-400 hover:text-slate-600 focus:outline-none focus:ring-0 focus:ring-blue-400 focus:ring-offset-2 active:text-slate-600 tracking-tight",
+    "inline-flex items-center rounded-md text-xl text-blue-400 hover:text-slate-600 focus:outline-none focus:ring-0 focus:ring-blue-400 focus:ring-offset-2 active:text-slate-600 tracking-tight p-1",
 } as const;
 
 // top-bar.tsx
