@@ -1,11 +1,12 @@
 // import AcmeLogo from "@/app/ui/acme-logo";
 // import { ArrowRightIcon } from "@heroicons/react/24/outline";
-// import Link from "next/link";
+import Link from "next/link";
 // import { ubuntu } from "@/app/ui/fonts";
 // import Image from "next/image";
 import { ModeToggle } from "@/components/ui/theme-toggle";
 import AcmeLogo from "./ui/asai-logo";
 import Footer from "./ui/footer";
+import { Button } from "@/components/ui/button";
 
 export default function Page() {
   return (
@@ -20,6 +21,11 @@ export default function Page() {
       </div> */}
 
       {/* Content */}
+      <div className="flex flex-row-reverse p-3">
+        <Link href={"/dashboard"}>
+          <Button variant="ghost">Dashboard</Button>
+        </Link>
+      </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid h-screen place-items-center">
           <AcmeLogo></AcmeLogo>
