@@ -1,4 +1,4 @@
-import AcmeLogo from "@/app/ui/asai-logo";
+// import AcmeLogo from "@/app/ui/asai-logo";
 import LoginForm from "@/app/ui/login-form";
 
 export default function LoginPage() {
@@ -8,7 +8,7 @@ export default function LoginPage() {
         <div className="flex h-20 w-full items-end rounded-lg bg-transparent p-3 md:h-36">
           {/* <div className="w-32 text-white md:w-36"> */}
           <div className="ml-16 shadow-2xl">
-            <AcmeLogo />
+            {/* <AcmeLogo /> */}
           </div>
         </div>
         <LoginForm />

@@ -11,7 +11,7 @@ export default function AcmeLogo() {
     >
       <Image
         src={"/asai-logo.png"}
-        alt="ASAI Inc. Logo"
+        alt="Starboy Inc. Logo"
         height={200}
         width={200}
       ></Image>

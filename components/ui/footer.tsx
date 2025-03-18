@@ -1,11 +1,15 @@
 "use client";
 
-import NextLogo from "./next-logo";
-import { footerStyles } from "../styles/styles";
+import NextLogo from "../../app/ui/next-logo";
+import { footerStyles } from "../../app/styles/styles";
+import { ModeToggle } from "./theme-toggle";
 
 export default function Footer() {
   return (
     <div className={footerStyles.centeredFooter}>
+      <div className="mr-2">
+      <ModeToggle></ModeToggle>
+      </div>
       <footer>
         <div>
           <p className="text-slate-600">Built w/</p>
