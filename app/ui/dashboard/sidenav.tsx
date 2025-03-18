@@ -12,7 +12,7 @@ export default function SideNav() {
         href="/"
       >
         {/* <div className="w-32 text-white md:w-40"> */}
-        <div className="w-24 p-1">
+        <div className="w-20 p-1">
           <AcmeLogo />
         </div>
       </Link>
