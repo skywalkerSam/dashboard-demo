@@ -6,7 +6,6 @@ import { ClerkProvider, SignedIn, SignedOut } from "@clerk/nextjs";
 import StarboyLogo from "@/components/ui/starboy-logo";
 import UserSignInButton from "@/components/ui/sign-in";
 import { centeredDivStyle } from "./styles/styles";
-// import { ModeToggle } from "@/components/ui/theme-toggle";
 import Footer from "@/components/ui/footer";
 import MainTitle from "@/components/ui/main-title";
 import TopBar from "@/components/ui/top-bar";
