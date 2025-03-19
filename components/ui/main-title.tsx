@@ -31,12 +31,11 @@ export default function MainTitle() {
           target="_blank"
           className="text-black"
         >
-          {/* <img src="https://github.com/vercel.png" alt="The almighty triangle" width={30}></img> */}
           <strong className="text-xl dark:invert">NEXT.js</strong>
         </a>
         , and deployed w/{" "}
         <a
-          href="https://nextjs.org/learn/"
+          href="https://vercel.com"
           target="_blank"
           className="text-black"
         >
