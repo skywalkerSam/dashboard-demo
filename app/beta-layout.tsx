@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | ASAI Dashboard",
     default: "ASAI Dashboard",
   },
-  description: "ASAI Inc. dashboard demo built w/ NEXT.js utilizing the new App Router.",
+  description: "Starboy Inc. dashboard demo built w/ NEXT.js utilizing the new App Router.",
   metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
 };
 export default function RootLayout({
