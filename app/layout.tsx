@@ -8,7 +8,7 @@ import UserSignInButton from "@/components/ui/sign-in";
 import { centeredDivStyle } from "./styles/styles";
 import Footer from "@/components/ui/footer";
 import MainTitle from "@/components/ui/main-title";
-import TopBar from "@/components/ui/top-bar";
+// import TopBar from "@/components/ui/top-bar";
 
 // https://nextjs.org/learn/dashboard-app/adding-metadata
 export const metadata: Metadata = {

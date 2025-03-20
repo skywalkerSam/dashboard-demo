@@ -23,7 +23,9 @@ export const mainPageStyles = {
 } as const;
 
 // top-bar.tsx
-export const topBarStyles = {};
+export const topBarStyles = {
+  topBarContainer: "flex flex-row-reverse gap-3 p-3",
+};
 
 // footer.tsx
 export const footerStyles = {
